@@ -1,0 +1,71 @@
+body{
+  width: 50%;
+  margin: auto;
+  padding: 3rem;
+  font-family: Roboto;
+  background-image: url(../img/sfondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+header img , h2 {
+  display: inline-block;
+}
+header img {
+  width: 70px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.numero{
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  color: white
+}
+
+header h2{
+  margin-bottom: 0px;
+}
+
+
+
+
+.row{
+  margin-top: 2px;
+
+}
+
+.row input , p {
+  display: inline-block;
+}
+
+input +  p::before{
+  content: "\2605" ;
+  margin-right: 10px;
+}
+p +  p::after{
+  content: "..." ;
+  margin-left: 4px;
+}
+
+
+.read{
+  background-color: rgb(237, 237, 237);
+}
+
+.unread{
+  background-color: rgb(203, 203, 203);
+}
+
+.row input{
+  margin: 0px 10px;
+}
+
+.small{
+  margin-left: 10px;
+  color: rgb(85, 85, 85)
+}
